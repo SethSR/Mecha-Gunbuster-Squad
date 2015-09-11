@@ -1,0 +1,11 @@
+Robots have hit points, a faction, an offensive ability, a defensive ability, and a movement ability.
+Robot behavior is based on its abilities and its hit points.
+
+Factions consist of robots.
+Robots in the same faction are allies.
+Robots in differing factions are enemies.
+
+Shoot behavior
+Move behavior
+Hide behavior
+Shield behavior

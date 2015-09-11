@@ -1,0 +1,987 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Vector",
+				"Vector<T>	haxe.ds"
+			],
+			[
+				"gr",
+				"Graphic	class"
+			],
+			[
+				"r",
+				"round( v : Float )	Int"
+			],
+			[
+				"wi",
+				"halfWidth	Float"
+			],
+			[
+				"ho",
+				"horz_aim"
+			],
+			[
+				"aimG",
+				"aimGroundDown"
+			],
+			[
+				"start",
+				"SetStartPosition"
+			],
+			[
+				"spe",
+				"specialWeapon"
+			],
+			[
+				"inst",
+				"Instance"
+			],
+			[
+				"frair",
+				"fromAir"
+			],
+			[
+				"din",
+				"distanceCheck"
+			],
+			[
+				"distance",
+				"Distance"
+			],
+			[
+				"ch",
+				"changeState"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"Coll",
+				"Collision2D"
+			],
+			[
+				"ap",
+				"applyKnockback"
+			],
+			[
+				"posiit",
+				"positions"
+			],
+			[
+				"iso",
+				"isOnFloor"
+			],
+			[
+				"st",
+				"stunDelay"
+			],
+			[
+				"t",
+				"tag"
+			],
+			[
+				"C",
+				"Collision2D"
+			],
+			[
+				"o",
+				"other"
+			],
+			[
+				"c",
+				"camera"
+			],
+			[
+				"ta",
+				"target_pos"
+			],
+			[
+				"kn",
+				"knockbackDirection"
+			],
+			[
+				"knock",
+				"knockbackDirection"
+			],
+			[
+				"kno",
+				"knockbackForce"
+			],
+			[
+				"movement",
+				"movementThisStep"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/Behaviors/Seek.cs",
+			"settings":
+			{
+				"buffer_size": 709,
+				"line_ending": "Windows",
+				"name": "public class Seek {"
+			}
+		},
+		{
+			"file": "Assets/Scripts/PlayerController.cs",
+			"settings":
+			{
+				"buffer_size": 637,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "MGS.txt",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/AIController.cs",
+			"settings":
+			{
+				"buffer_size": 497,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 231.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gitgut",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"g",
+				"GitGutter: Compare Against Origin"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"hxinst",
+				"Haxelib: Install library"
+			],
+			[
+				"list",
+				"Haxelib: List Installed"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"addr",
+				"Package Control: Add Repository"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc+",
+				"Set Syntax: C++11"
+			],
+			[
+				"ssja",
+				"Set Syntax: Java"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sssc",
+				"Set Syntax: Scala"
+			],
+			[
+				"sss",
+				"Set Syntax: SQL"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Follow.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Follow.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/RobotController.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/AIController.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Movement.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Defense.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Offense.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Robot.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/PlayerController.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/AI.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/mgs.sublime-project",
+		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Fronts.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Monsters.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Notes.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Locations.txt",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Robot.cs",
+		"/C/Users/srens/Dropbox/Roleplaying/DnD_5E/Character.scala",
+		"/C/Users/srens/Dropbox/Roleplaying/DnD_5E/Sik-tek - Character Sheet.txt",
+		"/C/Users/srens/Downloads/Factorio-SuperScience.png",
+		"/C/Users/srens/AppData/Roaming/Factorio/mods/mod-list.json",
+		"/C/Program Files/Factorio/data/changelog.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Names.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Campaign Info.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - BaronTech HQ.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Worksheet.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Notes.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Locations.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - West American Desert.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA  2066 - BaronTech R&D.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Chinese Cargo Ship.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Shondii Sewers.txt",
+		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Bluefell Woods.txt",
+		"/C/Users/srens/Desktop/Weekly Show Schedule.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/Class - Chosen.txt",
+		"/C/Users/srenshaw/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/Alternity/FSA 2066 - Campaign Info.txt",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/Alternity/FSA 2066 - Chinese Cargo Ship.txt",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/Alternity/FSA 2066 - Locations.txt",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/Alternity/The Baron",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/Alternity/FSA 2066 - Notes.txt",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/roleplaying.sublime-project",
+		"/C/Users/srenshaw/Dropbox/Roleplaying/Alternity/FSA 2066 - Worksheet.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Cities.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/DnD 5E/Sik-tek - Character Sheet.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/DnD 5E/Character.scala",
+		"/C/Users/srens/Dropbox/Roleplaying/roleplaying.sublime-project",
+		"/C/Users/srens/Dropbox/Roleplaying/DnD 5E/Sik_Tek.xml",
+		"/C/Users/srens/Dropbox/Roleplaying/DnD 4E/Sik-Tek - Character Sheet.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 Campaign.cmpgn",
+		"/C/Users/srens/Dropbox/Roleplaying/Shadowrun/SR5 Character - TechnoRigger.txt",
+		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/components/Control.hx",
+		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/Main.hx",
+		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/components/Weapons.hx",
+		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/User/Haxe.sublime-settings",
+		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/Mecha Gunbuster Squad.sublime-project",
+		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/project.flow",
+		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/WaveletNoise.hx",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/project/Build.xml",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/tools/hxcpp/compile.hxml",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/hxcpp.n",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/tools/build/Build.hx",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/hxcpp/Builder.hx",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/haxelib.json",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/haxelib.xml",
+		"/C/HaxeToolkit/haxe/lib/hxcpp/git/build-tool/BuildCommon.xml",
+		"/C/Users/srens/Desktop/hello_world/compile.hxml",
+		"/C/Users/srens/Desktop/hello_world/Test.hx",
+		"/C/Users/srens/Desktop/hello_world/cp.txt",
+		"/C/Users/srens/Desktop/path.txt",
+		"/C/Users/srens/path.txt",
+		"/C/Users/srens/path2.txt",
+		"/C/Users/srens/Desktop/gui_sys/build.hxml",
+		"/C/Users/srens/Desktop/gui_sys/src/Test.hx",
+		"/C/Users/srens/Desktop/gui_sys/test.js",
+		"/C/Users/srens/Desktop/gui_sys/build.sbt",
+		"/C/Users/srens/Desktop/gui_sys/gui_sys.sublime-project",
+		"/C/Users/srens/Desktop/Test",
+		"/C/Users/srens/Desktop/Main.scala",
+		"/C/Users/srens/Desktop/removeonedrive.cmd",
+		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/User/Scala.sublime-build",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/The Baron",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/walter-0.9.1.62/Peter Lawrence.xml",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Companies.txt",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA-2066.sublime-project",
+		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA-2066.sublime-workspace",
+		"/C/Users/SethSR/Dropbox/Roleplaying/DnD 5E/Sik-tek - Character Sheet.txt",
+		"/C/Users/SethSR/Dropbox/Alternity/CharGen_old/CharGen.txt",
+		"/C/Users/SethSR/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/SethSR/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Alternity/FSA 2066 - Cities",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Alternity/FSA 2066 - Campaign Info",
+		"/C/Users/SethSR/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/SethSR/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Alternity/Alternity - FSA 2066.json",
+		"/C/Users/SethSR/Documents/GitHub/Alternity/src/Main.hx",
+		"/C/Users/SethSR/Documents/GitHub/Alternity/project.flow",
+		"/C/Users/SethSR/Documents/GitHub/Alternity/app.xml",
+		"/C/HaxeToolkit/haxe/lib/svg/1,0,8/format/SVG.hx",
+		"/C/HaxeToolkit/haxe/lib/stablexui/1,1,4/src/ru/stablex/ui/widgets/Widget.hx",
+		"/C/Users/SethSR/Documents/GitHub/Alternity/Main.hx",
+		"/C/Users/SethSR/Desktop/test.java",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Alternity/FSA 2066/Nick.xml",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Alternity/FSA 2066/Luis.xml",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Alternity/FSA 2066/Jennifer.xml",
+		"/C/Users/SethSR/Dropbox/Public/Pathfinder Char - Errias Mingsly.txt",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/ui/RadioButton.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/ui/RadioButtonGroup.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/MainScene.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/ui/Button.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/ui/Checkbox.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/entities/Mech.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/project.xml",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/src/Main.hx",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/MGS.sublime-project",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/core/src/com/mgs/game/Components.java",
+		"/C/Users/SethSR/Desktop/mecha-gunbuster-squad/core/src/com/mgs/game/Weapon.java",
+		"/C/Program Files/Renoise 3.0.1/Readme.txt",
+		"/C/Users/SethSR/Documents/workspace/MekTool/src/Parser.scala",
+		"/C/Users/SethSR/Dropbox/Roleplaying/Mekton/mektool/mekton/Parser.java",
+		"/C/Users/SethSR/Dropbox/Letter for M",
+		"/C/Users/SethSR/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/SethSR/Dropbox/Roleplaying/DnD 5E/Valikar - Character Sheet.txt",
+		"/C/Users/SethSR/Dropbox/Roleplaying/DnD 5E/Varis - Character Sheet.txt",
+		"/C/Users/SethSR/Desktop/FlowLang/Lexer.hpp",
+		"/C/Users/SethSR/Desktop/FlowLang/Lexer.h",
+		"/C/Users/SethSR/Documents/Unity/MP Metroid/Assets/RoomMarker.cs"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rigidbody",
+			"GetComponent<Rigidbody2D>()",
+			"class",
+			"Ability",
+			" / ",
+			" -",
+			"BaronTower",
+			"12",
+			"6",
+			"short",
+			"10",
+			"Ranged",
+			"5",
+			"10",
+			",",
+			"Number",
+			"-",
+			"Weapons",
+			"raiders",
+			"7",
+			"14",
+			"statMod",
+			"Charisma",
+			"2",
+			" \n",
+			"dex",
+			"Dex",
+			"Way of Shadow",
+			":",
+			"|",
+			"| ",
+			"			|",
+			"enemy_count",
+			"mech_red",
+			"mech_blue",
+			"targeting_radius",
+			"alignment_weight",
+			"cohesion_weight",
+			"separation_weight",
+			"flocking_radius",
+			"mech_speed",
+			"mech_health",
+			"mech_size",
+			"cool_down",
+			"semi_auto",
+			"bullet_color",
+			"bullet_speed",
+			"bullet_size",
+			"C:",
+			"\\'",
+			"\\t\\n",
+			"\\t",
+			"</",
+			">",
+			"</",
+			">",
+			"Matsuoka",
+			"dex",
+			"advantage",
+			"normally",
+			"neurons",
+			"chain",
+			"date",
+			"neural",
+			"reactions",
+			"anaerobic",
+			"bacterial",
+			"bacteria",
+			"\",",
+			"skill_rating",
+			"sit",
+			"10",
+			"20",
+			"1",
+			">",
+			"createRect",
+			"\n		",
+			"NORMAL",
+			"HOVER",
+			"down",
+			"DOWN",
+			"world",
+			"vert_aim",
+			"horz_aim",
+			"facingLeft",
+			"going_left",
+			"nearestWall",
+			"isGrounded",
+			"Akkakarr",
+			"isInit",
+			"jumpTo",
+			"jumpTarget",
+			"bound_x",
+			"view_x",
+			"target_x",
+			"y",
+			"Air",
+			"blastTime",
+			"AirBlastState",
+			"-",
+			"DoubleJumpState",
+			"State",
+			"Jumping",
+			"Falling",
+			"Standing",
+			"Jumping",
+			"Delayed",
+			"DelayedFalling",
+			"F",
+			"InputEvent",
+			"Remove",
+			"prevPosition",
+			"Player",
+			"prevPosition",
+			"private",
+			"prevPosition",
+			"anyKeyListener",
+			"Shop",
+			"maxDist",
+			"minDist",
+			"maxDist",
+			"startJumpDelay",
+			"cam",
+			"gravityScale",
+			"1",
+			"Improvise",
+			"Flanking Manuever",
+			"Wor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"\\nC:",
+			"",
+			"\\n\\t</",
+			">\\n\\t",
+			"\\n\\t</",
+			"\\n</",
+			">\\n",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/Behaviors/Seek.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"auto_name": "public class Seek {",
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/PlayerController.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "MGS.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/AIController.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 534.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sbt":
+	{
+		"height": 0.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mgs.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"play",
+				"PlayerController.cs"
+			],
+			[
+				"aic",
+				"AIController.cs"
+			],
+			[
+				"robot",
+				"RobotController.cs"
+			],
+			[
+				"ai",
+				"AI.cs"
+			],
+			[
+				"mo",
+				"Movement.cs"
+			],
+			[
+				"def",
+				"Defense.cs"
+			],
+			[
+				"ro",
+				"Robot.cs"
+			],
+			[
+				"monster",
+				"Dungeon World\\The Between Times - Monsters.txt"
+			],
+			[
+				"cha",
+				"D&D 5E\\Character.scala"
+			],
+			[
+				"sik",
+				"D&D 5E\\Sik-tek - Character Sheet.txt"
+			],
+			[
+				"thebetween",
+				"Dungeon World\\The Between Times - Monsters.txt"
+			],
+			[
+				"the",
+				"Dungeon World\\The Between Times - Notes.txt"
+			],
+			[
+				"baron",
+				"Alternity\\FSA 2066 - BaronTech HQ.txt"
+			],
+			[
+				"work",
+				"Alternity\\FSA 2066 - Worksheet.txt"
+			],
+			[
+				"",
+				"Alternity\\FSA 2066 - West American Desert.txt"
+			],
+			[
+				"fsa",
+				"Alternity\\FSA 2066 - Locations.txt"
+			],
+			[
+				"names",
+				"Alternity\\FSA 2066 - Names.txt"
+			],
+			[
+				"fsa2066",
+				"Alternity\\FSA 2066 - Campaign Info.txt"
+			],
+			[
+				"baronte",
+				"Alternity\\FSA  2066 - BaronTech R&D.txt"
+			],
+			[
+				"chine",
+				"Alternity\\FSA 2066 - Chinese Cargo Ship.txt"
+			],
+			[
+				"desert",
+				"Alternity\\FSA 2066 - West American Desert.txt"
+			],
+			[
+				"charact",
+				"D&D 5E\\Character.scala"
+			],
+			[
+				"character",
+				"D&D 5E\\Character.scala"
+			],
+			[
+				"fsanotes",
+				"Alternity\\FSA 2066 - Notes.txt"
+			],
+			[
+				"fsawork",
+				"Alternity\\FSA 2066 - Worksheet.txt"
+			],
+			[
+				"baront",
+				"Alternity\\FSA 2066 - BaronTech HQ.txt"
+			],
+			[
+				"cam",
+				"Alternity\\FSA 2066 - Campaign Info.txt"
+			],
+			[
+				"notes",
+				"Alternity\\FSA 2066 - Notes.txt"
+			],
+			[
+				"worksh",
+				"Alternity\\FSA 2066 - Worksheet.txt"
+			],
+			[
+				"chin",
+				"Alternity\\FSA 2066 - Chinese Cargo Ship.txt"
+			],
+			[
+				"camp",
+				"Alternity\\FSA 2066 - Campaign Info.txt"
+			],
+			[
+				"nnote",
+				"Alternity\\FSA 2066 - Notes.txt"
+			],
+			[
+				"char",
+				"D&D 5E\\Character.scala"
+			],
+			[
+				"fsaship",
+				"Alternity\\FSA 2066 - Chinese Cargo Ship.txt"
+			],
+			[
+				"citie",
+				"Alternity\\FSA 2066 - Cities.txt"
+			],
+			[
+				"contr",
+				"src\\components\\Control.hx"
+			],
+			[
+				"main",
+				"src\\Main.hx"
+			],
+			[
+				"pro",
+				"project.flow"
+			],
+			[
+				"b",
+				"build.hxml"
+			],
+			[
+				"peter",
+				"walter-0.9.1.62\\Peter Lawrence.xml"
+			],
+			[
+				"name",
+				"FSA 2066 - Names.txt"
+			],
+			[
+				"butt",
+				"src\\ui\\Button.hx"
+			],
+			[
+				"rai",
+				"src\\ui\\RadioButton.hx"
+			],
+			[
+				"mains",
+				"src\\MainScene.hx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\srens\\Desktop\\alternity_tools\\alternity_tools.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 110.0,
+		"last_filter": "Perl",
+		"selected_items":
+		[
+			[
+				"Perl",
+				"noisehx.Perlin"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

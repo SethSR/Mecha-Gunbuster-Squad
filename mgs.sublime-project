@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"name": "Mecha Gunbuster Squad",
+			"file_exclude_patterns": [ "*.meta" ],
+			"path": "Assets/Scripts",
+		}
+	]
+}
