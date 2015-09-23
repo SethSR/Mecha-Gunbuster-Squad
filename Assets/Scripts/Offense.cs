@@ -27,10 +27,11 @@ public class Offense : MonoBehaviour {
 		get { return timer < 0; }
 	}
 
-	public void activate() {
+	public void attack(Vector2 target) {
 		if (isCooled) {
 			timer = cooldown;
-			Rigidbody2D bullet = (Rigidbody2D)Instantiate(bullet);
+			Rigidbody2D bullet = (Rigidbody2D)Instantiate(bullet, Vector3.zero, Quaternion.identity);
+			bullet.velocity = (target - (Vector2)transform.position).normalized * speed;
 		}
 	}
 
