@@ -22,12 +22,12 @@ Defensive abilities determine Hide/Shield behavior
 Movement abilities determine Move behavior
 
 Offensive Ability:
-	speed    - attack movement speed
 	cooldown - time until re-activation
-	power    - attack damage and stun length
+	distance - how far the attack can travel
 	hits     - number of attacks launched
 	impact   - size of the area affected by the attack
-	distance - how far the attack can travel
+	power    - attack damage and stun length
+	speed    - attack movement speed
 
 Defensive Ability:
 	cooldown - time until re-activation
@@ -35,7 +35,7 @@ Defensive Ability:
 	time     - how long the shield lasts
 
 Movement Ability:
-	speed    - how fast the robot will move
-	cooldown - time until re-activation
 	aerial   - whether the robot becomes airborne
+	cooldown - time until re-activation
 	distance - how far the robot will move
+	speed    - how fast the robot will move
