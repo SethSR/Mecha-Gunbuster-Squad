@@ -1,3 +1,6 @@
+using UnityEngine;
+using System.Collections;
+
 // public enum Offense {
 // 	Pistol,
 // 	EPistol,
