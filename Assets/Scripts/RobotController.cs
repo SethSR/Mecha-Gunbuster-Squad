@@ -7,10 +7,10 @@ abstract public class RobotController : MonoBehaviour {
 	public float maxSpeed = 10; // 10 m/s
 	
 	// Use this for initialization
-	void Start () {
+	void Start() {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update() {
 	}
 }
