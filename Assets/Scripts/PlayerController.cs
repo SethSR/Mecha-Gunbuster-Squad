@@ -2,23 +2,26 @@ using UnityEngine;
 using System.Collections;
 
 public class PlayerController : RobotController {
-	Vector2 velocity = Vector2.zero;
-	float   maxSpeed = 10; // 10 m/s
-	float   velX     = 0;
-	float   velY     = 0;
+	public Transform tempBullet;
+	public float     bulletSpeed;
+
+	new Rigidbody2D rigidbody2D;
 
 	// Use this for initialization
-	void Start () {
+	void Start() {
+		rigidbody2D = GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		// if (Input.GetMouseButton(0)) {
-		// 	target = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		// }
-		velX = Input.GetAxis("Horizontal");
-		velY = Input.GetAxis("Vertical");
-		velocity = new Vector2(velX, velY).normalized * maxSpeed;
-		transform.position += (Vector3)velocity * Time.deltaTime;
+	void Update() {
+		var dir = new Vector2(Input.GetAxis("Horizontal"),
+		                      Input.GetAxis("Vertical")).normalized;
+
+		if (Input.GetButton("Fire1")) {
+			Rigidbody2D bullet = (Rigidbody2D)Instantiate(tempBullet, transform.position, Quaternion.identity);
+			bullet.velocity = dir * bulletSpeed;
+		}
+
+		rigidbody2D.velocity = dir * maxSpeed;
 	}
 }
