@@ -1,11 +1,41 @@
-Robots have hit points, a faction, an offensive ability, a defensive ability, and a movement ability.
+Robots:
+	hit points
+	faction
+	offensive ability
+	defensive ability
+	movement ability
+
 Robot behavior is based on its abilities and its hit points.
 
-Factions consist of robots.
-Robots in the same faction are allies.
-Robots in differing factions are enemies.
+Factions are groups of robots.
+	Robots in the same faction are allies.
+	Robots in differing factions are enemies.
 
-Shoot behavior
-Move behavior
-Hide behavior
-Shield behavior
+Abilities grant behaviors
+	Shoot behavior
+	Move behavior
+	Hide behavior
+	Shield behavior
+
+Offensive abilities determine Shoot behavior
+Defensive abilities determine Hide/Shield behavior
+Movement abilities determine Move behavior
+
+Offensive Ability:
+	speed    - attack movement speed
+	cooldown - time until re-activation
+	power    - attack damage and stun length
+	hits     - number of attacks launched
+	impact   - size of the area affected by the attack
+	distance - how far the attack can travel
+
+Defensive Ability:
+	cooldown - time until re-activation
+	power    - damage reduction
+	time     - how long the shield lasts
+
+Movement Ability:
+	speed    - how fast the robot will move
+	cooldown - time until re-activation
+	aerial   - whether the robot becomes airborne
+	distance - how far the robot will move
