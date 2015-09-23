@@ -3,8 +3,7 @@ using System.Collections;
 
 public class AIController : RobotController {
 	public Transform target;
-	public float maxSpeed = 50;
-
+	
 	new Rigidbody2D rigidbody2D;
 
 	// Use this for initialization
