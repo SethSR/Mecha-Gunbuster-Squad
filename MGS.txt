@@ -33,6 +33,7 @@ Defensive Ability:
 	cooldown - time until re-activation
 	power    - damage reduction
 	time     - how long the shield lasts
+	parry    - the percent of damage deflected (over 100% reflects the shot back)
 
 Movement Ability:
 	aerial   - whether the robot becomes airborne
