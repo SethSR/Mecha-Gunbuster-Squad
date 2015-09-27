@@ -17,4 +17,4 @@
 *.RTF	 diff=astextplain
 
 # custom
-*.cs text=auto
+*.cs text eol=lf
