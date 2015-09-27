@@ -30,8 +30,8 @@ public class Offense : MonoBehaviour {
 	public void attack(Vector2 target) {
 		if (isCooled) {
 			timer = cooldown;
-			Rigidbody2D bullet = (Rigidbody2D)Instantiate(bullet, Vector3.zero, Quaternion.identity);
-			bullet.velocity = (target - (Vector2)transform.position).normalized * speed;
+			Rigidbody2D bullet_rb = (Rigidbody2D)Instantiate(bullet, Vector3.zero, Quaternion.identity);
+			bullet_rb.velocity = (target - (Vector2)transform.position).normalized * speed;
 		}
 	}
 
