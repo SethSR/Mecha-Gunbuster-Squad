@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Fuzzy",
+				"FuzzySet_RightShoulder"
+			],
+			[
 				"Vector",
 				"Vector<T>	haxe.ds"
 			],
@@ -120,35 +124,42 @@
 	"buffers":
 	[
 		{
-			"file": "Assets/Scripts/Behaviors/Seek.cs",
+			"file": "Assets/Scripts/AIController.cs",
 			"settings":
 			{
-				"buffer_size": 709,
-				"line_ending": "Windows",
-				"name": "public class Seek {"
-			}
-		},
-		{
-			"file": "Assets/Scripts/PlayerController.cs",
-			"settings":
-			{
-				"buffer_size": 637,
-				"line_ending": "Windows"
+				"buffer_size": 469,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "MGS.txt",
 			"settings":
 			{
-				"buffer_size": 332,
+				"buffer_size": 1144,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Assets/Scripts/AIController.cs",
+			"file": "Assets/Scripts/FuzzyLogic/FuzzyModule.cs",
 			"settings":
 			{
-				"buffer_size": 497,
+				"buffer_size": 1006,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/FuzzyLogic/FuzzyVariable.cs",
+			"settings":
+			{
+				"buffer_size": 1997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/FuzzySet.cs",
+			"settings":
+			{
+				"buffer_size": 1395,
 				"line_ending": "Unix"
 			}
 		}
@@ -160,17 +171,37 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 231.0,
-		"last_filter": "project",
+		"height": 194.0,
+		"last_filter": "q",
 		"selected_items":
 		[
 			[
-				"project",
-				"Project: Edit Project"
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add Current File"
+			],
+			[
+				"gitq",
+				"Git: Quick Commit"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"pref def",
+				"Preferences: Settings - Default"
+			],
+			[
+				"prefereu",
+				"Preferences: Settings - User"
+			],
+			[
+				"project",
+				"Project: Edit Project"
 			],
 			[
 				"gitgut",
@@ -275,15 +306,23 @@
 	],
 	"file_history":
 	[
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Follow.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Follow.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/RobotController.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/AIController.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Movement.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Defense.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Offense.cs",
-		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Robot.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/FuzzyLogic/FuzzyVariable.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/FuzzyLogic/FuzzySet_RightShoulder.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/FuzzyModule.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/FuzzySet.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/FuzzyLogic/FuzzySet_Triangle.cs",
 		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/PlayerController.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Offense.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Defense.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Movement.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Robot.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/AIController.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Follow.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/RobotController.cs",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Scripts/Behaviors/Seek.cs",
+		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/Follow.cs",
 		"/C/Users/srens/Documents/MechaGunbusterSquad/Assets/AI.cs",
 		"/C/Users/srens/Documents/MechaGunbusterSquad/mgs.sublime-project",
 		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Fronts.txt",
@@ -306,7 +345,6 @@
 		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA  2066 - BaronTech R&D.txt",
 		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Chinese Cargo Ship.txt",
 		"/C/Users/srens/Dropbox/Roleplaying/Alternity/FSA 2066 - Shondii Sewers.txt",
-		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/The Between Times - Bluefell Woods.txt",
 		"/C/Users/srens/Desktop/Weekly Show Schedule.txt",
 		"/C/Users/srens/Dropbox/Roleplaying/Dungeon_World/Class - Chosen.txt",
@@ -328,7 +366,6 @@
 		"/C/Users/srens/Dropbox/Roleplaying/Shadowrun/SR5 Character - TechnoRigger.txt",
 		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/components/Control.hx",
 		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/Main.hx",
-		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/src/components/Weapons.hx",
 		"/C/Users/srens/AppData/Roaming/Sublime Text 3/Packages/User/Haxe.sublime-settings",
 		"/C/Users/srens/Documents/GitHub/Mecha-Gunbuster-Squad/Mecha Gunbuster Squad.sublime-project",
@@ -396,13 +433,7 @@
 		"/C/Program Files/Renoise 3.0.1/Readme.txt",
 		"/C/Users/SethSR/Documents/workspace/MekTool/src/Parser.scala",
 		"/C/Users/SethSR/Dropbox/Roleplaying/Mekton/mektool/mekton/Parser.java",
-		"/C/Users/SethSR/Dropbox/Letter for M",
-		"/C/Users/SethSR/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
-		"/C/Users/SethSR/Dropbox/Roleplaying/DnD 5E/Valikar - Character Sheet.txt",
-		"/C/Users/SethSR/Dropbox/Roleplaying/DnD 5E/Varis - Character Sheet.txt",
-		"/C/Users/SethSR/Desktop/FlowLang/Lexer.hpp",
-		"/C/Users/SethSR/Desktop/FlowLang/Lexer.h",
-		"/C/Users/SethSR/Documents/Unity/MP Metroid/Assets/RoomMarker.cs"
+		"/C/Users/SethSR/Dropbox/Letter for M"
 	],
 	"find":
 	{
@@ -420,6 +451,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"FzSet",
+			"velY",
+			"velX",
 			"rigidbody",
 			"GetComponent<Rigidbody2D>()",
 			"class",
@@ -544,10 +578,7 @@
 			"startJumpDelay",
 			"cam",
 			"gravityScale",
-			"1",
-			"Improvise",
-			"Flanking Manuever",
-			"Wor"
+			"1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -574,87 +605,53 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Scripts/Behaviors/Seek.cs",
+					"file": "Assets/Scripts/AIController.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 709,
+						"buffer_size": 469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								488,
-								488
+								200,
+								200
 							]
 						],
 						"settings":
 						{
-							"auto_name": "public class Seek {",
-							"syntax": "Packages/C#/C#.tmLanguage"
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Assets/Scripts/PlayerController.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 637,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								259,
-								259
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C#/C#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 48.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 2,
 					"file": "MGS.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 332,
+						"buffer_size": 1144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								332,
-								332
+								288,
+								288
 							]
 						],
 						"settings":
@@ -669,31 +666,90 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "Assets/Scripts/AIController.cs",
+					"buffer": 2,
+					"file": "Assets/Scripts/FuzzyLogic/FuzzyModule.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 497,
+						"buffer_size": 1006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								491,
-								491
+								150,
+								150
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C#/C#.tmLanguage"
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 534.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/FuzzyLogic/FuzzyVariable.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/FuzzySet.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -716,12 +772,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -732,7 +782,6 @@
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},
@@ -744,6 +793,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 86.0
 	},
 	"output.sbt":
 	{
@@ -767,23 +820,15 @@
 		"selected_items":
 		[
 			[
-				"play",
-				"PlayerController.cs"
-			],
-			[
-				"aic",
+				"ai",
 				"AIController.cs"
 			],
 			[
-				"robot",
-				"RobotController.cs"
+				"off",
+				"Offense.cs"
 			],
 			[
-				"ai",
-				"AI.cs"
-			],
-			[
-				"mo",
+				"movemnt",
 				"Movement.cs"
 			],
 			[
@@ -791,8 +836,48 @@
 				"Defense.cs"
 			],
 			[
+				"robotc",
+				"RobotController.cs"
+			],
+			[
+				"rob",
+				"RobotController.cs"
+			],
+			[
+				"play",
+				"PlayerController.cs"
+			],
+			[
+				"mov",
+				"Movement.cs"
+			],
+			[
+				"foll",
+				"Follow.cs"
+			],
+			[
+				"s",
+				"Behaviors\\Seek.cs"
+			],
+			[
+				"mo",
+				"Movement.cs"
+			],
+			[
+				"defen",
+				"Defense.cs"
+			],
+			[
 				"ro",
 				"Robot.cs"
+			],
+			[
+				"robot",
+				"RobotController.cs"
+			],
+			[
+				"aic",
+				"AIController.cs"
 			],
 			[
 				"monster",
@@ -948,9 +1033,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "ro",
 		"selected_items":
 		[
+			[
+				"ro",
+				"C:\\Users\\srens\\Dropbox\\Roleplaying\\roleplaying.sublime-project"
+			],
+			[
+				"role",
+				"C:\\Users\\srens\\Dropbox\\Roleplaying\\roleplaying.sublime-project"
+			],
 			[
 				"",
 				"C:\\Users\\srens\\Desktop\\alternity_tools\\alternity_tools.sublime-project"
