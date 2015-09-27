@@ -23,7 +23,7 @@ public class AIController : RobotController {
 		ammoCount    = fm.CreateFLV("AmmoCount");
 		need         = fm.CreateFLV("Need");
 
-		targetClose  = distToTarget.AddLeftShoulderSet ("Target_Close" ,   0,  25, 150);
+		targetClose  = distToTarget.AddLeftShoulderSet ("Target_Close" ,   0,  25,  50);
 		targetMedium = distToTarget.AddTriangularSet   ("Target_Medium",  25,  50, 150);
 		targetFar    = distToTarget.AddRightShoulderSet("Target_Far"   , 150, 300, 500);
 
