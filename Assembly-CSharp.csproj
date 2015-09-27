@@ -49,22 +49,26 @@
      <Compile Include="Assets\Scripts\Behaviors\Seek.cs" />
      <Compile Include="Assets\Scripts\Defense.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyHelpers.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyModule.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyRule.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_LeftShoulder.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_RightShoulder.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_Singleton.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_Triangle.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyTerm.cs" />
+     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyVariable.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Offense.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Robot.cs" />
      <Compile Include="Assets\Scripts\RobotController.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
