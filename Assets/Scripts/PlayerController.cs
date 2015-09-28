@@ -18,7 +18,7 @@ public class PlayerController : RobotController {
 		                      Input.GetAxis("Vertical")).normalized;
 
 		if (Input.GetButton("Fire1")) {
-			Rigidbody2D bullet = (Rigidbody2D)Instantiate(tempBullet, transform.position, Quaternion.identity);
+			Rigidbody2D bullet = ((Transform)Instantiate(tempBullet, transform.position, Quaternion.identity)).GetComponent<Rigidbody2D>();
 			bullet.velocity = dir * bulletSpeed;
 		}
 
