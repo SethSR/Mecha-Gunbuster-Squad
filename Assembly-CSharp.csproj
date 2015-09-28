@@ -47,7 +47,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AIController.cs" />
      <Compile Include="Assets\Scripts\Behaviors\Seek.cs" />
-     <Compile Include="Assets\Scripts\BulletScript.cs" />
      <Compile Include="Assets\Scripts\Defense.cs" />
      <Compile Include="Assets\Scripts\FactionController.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
