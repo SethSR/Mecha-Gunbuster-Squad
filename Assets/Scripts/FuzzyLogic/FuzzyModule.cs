@@ -10,11 +10,11 @@ namespace FuzzyLogic {
 	public class FuzzyModule {
 		// creates a new "empty" fuzzy variable and returns a reference to it.
 		public FuzzyVariable CreateFLV(string VarName) {
-			m_Variables[VarName] = new FuzzyVariable();
+			m_Variables.Add(VarName, new FuzzyVariable());
 			return m_Variables[VarName];
 		}
 
-		enum DefuzzifyType {
+		public enum DefuzzifyType {
 			max_av,
 			centroid,
 		}
@@ -38,13 +38,13 @@ namespace FuzzyLogic {
 		}
 
 		// this method calls the Fuzzify method for the named FLV
-		void Fuzzify(string NameOfFLV, float val) {
+		public void Fuzzify(string NameOfFLV, float val) {
 			m_Variables.ContainsKey(NameOfFLV).MustBeTrue();
 			m_Variables[NameOfFLV].Fuzzify(val);
 		}
 
 		// given a fuzzy variable and a defuzzification method this returns a crisp value
-		float DeFuzzify(string NameOfFLV, DefuzzifyType method) {
+		public float Defuzzify(string NameOfFLV, DefuzzifyType method) {
 			// first make sure the named FLV exists in this module
 			m_Variables.ContainsKey(NameOfFLV).MustBeTrue();
 
@@ -52,9 +52,7 @@ namespace FuzzyLogic {
 			SetConfidencesOfConsequentsToZero();
 
 			// process the rules
-			foreach (FuzzyRule cur_rule in m_Rules) {
-				cur_rule.Calculate();
-			}
+			m_Rules.ForEach(i => i.Calculate());
 
 			// now defuzzify the resultant conclusion using the specified method
 			switch (method) {
