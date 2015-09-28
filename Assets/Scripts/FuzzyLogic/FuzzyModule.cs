@@ -1,22 +1,22 @@
 ﻿using UnityEngine;
+using UnityEngine.Assertions.Must;
 using System.Collections;
 using System.Collections.Generic;
-
 using System.Linq;
 
 namespace FuzzyLogic {
 	using VarMap = System.Collections.Generic.Dictionary<string, FuzzyVariable>;
 
 	public class FuzzyModule {
-		public enum DefuzzifyType {
-			max_av,
-			centroid,
-		}
-
 		// creates a new "empty" fuzzy variable and returns a reference to it.
 		public FuzzyVariable CreateFLV(string VarName) {
 			m_Variables[VarName] = new FuzzyVariable();
 			return m_Variables[VarName];
+		}
+
+		enum DefuzzifyType {
+			max_av,
+			centroid,
 		}
 
 		const int NumSamples = 15;
@@ -38,12 +38,15 @@ namespace FuzzyLogic {
 		}
 
 		// this method calls the Fuzzify method for the named FLV
-		void Fuzzify(string NameOfFLV, double val) {}
+		void Fuzzify(string NameOfFLV, float val) {
+			m_Variables.ContainsKey(NameOfFLV).MustBeTrue();
+			m_Variables[NameOfFLV].Fuzzify(val);
+		}
 
 		// given a fuzzy variable and a defuzzification method this returns a crisp value
-		double DeFuzzify(string NameOfFLV, DefuzzifyType method) {
+		float DeFuzzify(string NameOfFLV, DefuzzifyType method) {
 			// first make sure the named FLV exists in this module
-			//TODO: that
+			m_Variables.ContainsKey(NameOfFLV).MustBeTrue();
 
 			// clear the DOMs of all the consequents
 			SetConfidencesOfConsequentsToZero();
