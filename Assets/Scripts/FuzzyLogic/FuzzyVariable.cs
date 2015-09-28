@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
+using Functional;
+
+using FuzzyLogic;
 
 namespace FuzzyLogic {
 	using MemberSets = System.Collections.Generic.Dictionary<string, FuzzySet>;
@@ -41,23 +45,16 @@ namespace FuzzyLogic {
 
 		// fuzzify a value by calculating its DOM in each of this variable's subsets
 		public void Fuzzify(float val) {
-			foreach (var cur_set in m_MemberSets) {
-				cur_set.Value.SetDOM(cur_set.Value.CalculateDOM(val));
-			}
+			m_MemberSets
+				.Select (item    => item.Value)
+			  .ForEach(cur_set => cur_set.SetDOM(cur_set.CalculateDOM(val)));
 		}
 
 		// defuzzify the variable using the MaxAv method
 		public float DeFuzzifyMaxAv() {
-			var bottom = 0.0f;
-			var top    = 0.0f;
-			foreach (var cur_set in m_MemberSets) {
-				bottom += cur_set.Value.GetDOM();
-				top    += cur_set.Value.GetRepresentativeVal() * cur_set.Value.GetDOM();
-			}
-			if (FuzzySet.isEqual(0,bottom)) {
-				return 0.0f;
-			}
-			return top / bottom;
+			var top    = m_MemberSets.Select(item => item.Value.GetDOM() * item.Value.GetRepresentativeVal()).Aggregate((a,b) => a + b);
+			var bottom = m_MemberSets.Select(item => item.Value.GetDOM()).Aggregate((a,b) => a + b);
+			return bottom.isEqual(0) ? 0 : (top / bottom);
 		}
 
 		// defuzzify the variable using the centroid method
@@ -66,20 +63,13 @@ namespace FuzzyLogic {
 			var total_area     = 0.0f;
 			var sum_of_moments = 0.0f;
 
-			for (int samp = 1; samp <= NumSamples; ++samp) {
-				foreach (var cur_set in m_MemberSets) {
-					var contribution = Mathf.Min(cur_set.Value.CalculateDOM(m_dMinRange + samp * step_size),
-					                             cur_set.Value.GetDOM());
-					total_area += contribution;
-					sum_of_moments += (m_dMinRange + samp * step_size) * contribution;
-				}
-			}
-
-			if (FuzzySet.isEqual(0,total_area)) {
-				return 0.0f;
-			}
-
-			return (sum_of_moments / total_area);
+			Enumerable.Range(1, NumSamples).ForEach(samp => {
+				var samp_value = m_dMinRange + samp * step_size;
+				var contribution_values = m_MemberSets.Select(item => item.Value).Select(cur => Mathf.Min(cur.CalculateDOM(samp_value), cur.GetDOM()));
+				total_area     += contribution_values.Aggregate((a,b) => a + b);
+				sum_of_moments += contribution_values.Select(v => v * samp_value).Aggregate((a,b) => a + b);
+			});
+			return total_area.isEqual(0) ? 0 : (sum_of_moments / total_area);
 		}
 
 		// a map of the fuzzy sets that comprise this variable
@@ -98,12 +88,16 @@ namespace FuzzyLogic {
 
 		public string WriteDOMs {
 			get {
-				var os = "";
-				foreach (var it in m_MemberSets) {
-					os += "\n" + it.Key + " is " + it.Value.GetDOM();
-				}
-				os += "\nMin Range: " + m_dMinRange + "\nMax Range: " + m_dMaxRange;
-				return os;
+				return m_MemberSets
+					.Select(item => "\n" + item.Key + " is " + item.Value.GetDOM())
+					.Aggregate((a,b) => a + b)
+					+ "\nMin Range: " + m_dMinRange + "\nMax Range: " + m_dMaxRange;
+				// var os = "";
+				// foreach (var it in m_MemberSets) {
+				// 	os += "\n" + it.Key + " is " + it.Value.GetDOM();
+				// }
+				// os += "\nMin Range: " + m_dMinRange + "\nMax Range: " + m_dMaxRange;
+				// return os;
 			}
 		}
 
