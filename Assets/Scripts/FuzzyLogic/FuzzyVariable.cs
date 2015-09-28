@@ -88,23 +88,13 @@ namespace FuzzyLogic {
 
 		public string WriteDOMs {
 			get {
-				return m_MemberSets
-					.Select(item => "\n" + item.Key + " is " + item.Value.GetDOM())
-					.Aggregate((a,b) => a + b)
+				return (m_MemberSets.Count > 0
+	        ? m_MemberSets
+	        		.Select(item => "\n" + item.Key + " is " + item.Value.GetDOM())
+	        		.Aggregate((a,b) => a + b)
+	        : "")
 					+ "\nMin Range: " + m_dMinRange + "\nMax Range: " + m_dMaxRange;
-				// var os = "";
-				// foreach (var it in m_MemberSets) {
-				// 	os += "\n" + it.Key + " is " + it.Value.GetDOM();
-				// }
-				// os += "\nMin Range: " + m_dMinRange + "\nMax Range: " + m_dMaxRange;
-				// return os;
 			}
 		}
-
-		// a client retrieves a reference to a fuzzy variable when an instance is
-		// created via FuzzyModule::CreateFLV(). To prevent the client from deleting
-		// the instance the FuzzyVariable destructor is made private and the
-		// FuzzyModule class made a friend.
-		~FuzzyVariable() {}
 	}
 }
