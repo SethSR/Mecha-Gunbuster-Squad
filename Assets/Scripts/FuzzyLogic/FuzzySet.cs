@@ -50,11 +50,6 @@ namespace FuzzyLogic {
 			m_dRightOffset = rgt;
 		}
 
-		// A := m_dRightOffset == 0
-		// B := m_dLeftOffset == 0
-		// C := m_dPeakPoint == val
-		// (A*C)+(B*C) == (A+B)*C
-
 		override public float CalculateDOM(float val) {
 			if ((m_dRightOffset.isEqual(0) || m_dLeftOffset.isEqual(0)) && m_dPeakPoint.isEqual(val)) {
 				return 1;
