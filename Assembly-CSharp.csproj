@@ -47,16 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AIController.cs" />
      <Compile Include="Assets\Scripts\Behaviors\Seek.cs" />
+     <Compile Include="Assets\Scripts\BulletScript.cs" />
      <Compile Include="Assets\Scripts\Defense.cs" />
+     <Compile Include="Assets\Scripts\FactionController.cs" />
      <Compile Include="Assets\Scripts\Follow.cs" />
+     <Compile Include="Assets\Scripts\Functional.cs" />
      <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyHelpers.cs" />
      <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyModule.cs" />
      <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyRule.cs" />
      <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet.cs" />
-     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_LeftShoulder.cs" />
-     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_RightShoulder.cs" />
-     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_Singleton.cs" />
-     <Compile Include="Assets\Scripts\FuzzyLogic\FuzzySet_Triangle.cs" />
      <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyTerm.cs" />
      <Compile Include="Assets\Scripts\FuzzyLogic\FuzzyVariable.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
