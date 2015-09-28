@@ -9,8 +9,8 @@ public class Robot : MonoBehaviour {
 	public int squad     =   0;
 
 	void Update() {
-		if (Input.GetButton("Fire1") && offense.isCooled) {
-			// offense.activate();
-		}
+		// if (Input.GetButton("Fire1") && offense.isCooled) {
+		// 	offense.activate();
+		// }
 	}
 }
